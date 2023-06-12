@@ -1,7 +1,7 @@
 # Selenium_Specflow_Framework
 
 Pre-requisite 
-1. Install visua studio
+1. Install visual studio
 2. Install Speckow
      Extensions -> Manage Extention -> search for specflow -> Install
 
