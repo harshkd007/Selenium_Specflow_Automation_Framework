@@ -57,5 +57,15 @@ namespace Selenium_Specflow_Framework.StepDefinitions
             Thread.Sleep(5000);
             Assert.IsTrue(driver.Title.ToUpper().Contains(title.ToUpper()));
         }
+
+        /// <summary>
+        /// Step defination for "Close the web brower"
+        /// </summary>
+        [When(@"I close the brower")]
+        public void WhenICloseTheBrower()
+        {
+            driver.Quit();
+        }
+
     }
 }
