@@ -112,7 +112,10 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("search \'Ch shivaji Maharaj\' on youtube", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 10
- testRunner.Then("I verify the title \'Ch shivaji Maharaj1\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I verify the title \'Ch shivaji Maharaj\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 11
+ testRunner.When("I close the brower", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             }
             this.ScenarioCleanup();
